@@ -5,12 +5,16 @@ html, body {
   min-height: 100%;
 }
 
-body {
-  background: url(../images/backgrounds/architecture.jpg) center no-repeat;
+
+  body {
+    background: linear-gradient(to right, #a1d3b0, #f6f1d3, #e6d9b0);
+    padding: 44px 0 22px 0;
+  /*background: url(../images/backgrounds/architecture.jpg) center no-repeat;*/
+  /*background-color: black;*/
   background-size: cover;
   background-attachment: fixed;
-  font-family: Helvetica, Arial, sans-serif;
-  font-size: 100%;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 98%;
 }
 
 .wrapper {
